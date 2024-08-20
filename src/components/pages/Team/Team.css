@@ -1,0 +1,22 @@
+.header1{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: rgb(0, 0, 0);
+}
+.header2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: rgb(0, 0, 0);
+}
+.subheading{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: rgb(153, 153, 153);
+    margin-top: 20px;
+}
+
+
+
