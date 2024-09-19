@@ -27,7 +27,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <p className="text-gray-400">© 2024 Coco is proudly Powered by DAT-Tech. All Rights Reserved.</p>
+        <p className="text-gray-400">© 2024 Coco is proudly Powered by DAT-TECH. All Rights Reserved.</p>
       </div>
 
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full h-16 bg-gray-100"></div>

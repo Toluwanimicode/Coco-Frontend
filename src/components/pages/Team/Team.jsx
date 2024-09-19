@@ -32,6 +32,7 @@ const Team = () => {
                         emulateTouch={true}
                         dynamicHeight={true}
                         className="col-span-full"
+                        showThumbs={false}  // Add this line to disable thumbnails
                     >
                         {teamMembers.map((member, index) => (
                             <div key={index} className="flex flex-col items-center">

@@ -5,7 +5,7 @@ import { faDesktop, faImages, faHeadset, faPlayCircle } from '@fortawesome/free-
 
 const NavigationSection = () => {
   return (
-    <div className="navigation-section container mx-auto py-5 px-4">
+    <div className="navigation-section container mx-auto py-5 px-4" >
       <Tabs defaultActiveKey="about" id="uncontrolled-tab-example" role="tablist">
         <Tab eventKey="about" title="About Us" role="tabpanel">
           <div className="tab-pane-content py-5">
