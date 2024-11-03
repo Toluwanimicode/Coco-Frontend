@@ -8,7 +8,7 @@ const PricePage = () => {
         <div className="flex flex-col items-center text-center">
           <div className="section-head mb-10">
             <h4 className=" font-rubik">
-              <span className='header1'>Pricing</span> <span className="header2">Table</span>
+              <span className='pricing-text'>Pricing</span> <span className="table-text">Table</span>
             </h4>
             <p className=" subheading font-raleway">We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.</p>
           </div>

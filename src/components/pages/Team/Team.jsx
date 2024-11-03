@@ -17,7 +17,7 @@ const Team = () => {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div className="section-head col-span-full mb-8">
-                        <h4 className="text-center  font-rubik"><span className='header1'>Talent</span> <span className='header2'>Team</span></h4>
+                        <h4 className="text-center  font-rubik"><span className='header-1'>Talent</span> <span className='header-2'>Team</span></h4>
                         <p className="text-center font-raleway subheading">We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.</p>
                     </div>
 

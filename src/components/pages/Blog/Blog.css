@@ -14,12 +14,74 @@
     font-weight: 400;
     line-height: 27px;
     font-size: 15px;
-    color: rgb(153, 153, 153);
+    color: rgb(0, 0, 0)
 }
 .wordpress-subtitle{
     font-weight: 500;
     line-height: 19px;
     font-size: 16px;
     color: rgb(0, 0, 0);
-    
 }
+.text1{
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.text2{
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.text3{
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.read-more{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.admin-text{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;  
+    color: rgb(153, 153, 153);
+    margin-top: 10px;
+}
+.date-text{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    color: rgb(153, 153, 153);
+    margin-top: 10px;
+}
+.header2{
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.wordpress-text{
+    font-size: 10px;
+    line-height: 10px;
+    color: rgb(255, 255, 255);
+}
+.post-img .img {
+    overflow: hidden; /* Ensures zoom effect doesn't overflow the container */
+  }
+  
+  .post-img .img img {
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-img .img:hover img {
+    transform: scale(1.1); /* Zooms in the image by 10% */
+  }
+  

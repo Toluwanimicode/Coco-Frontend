@@ -9,8 +9,8 @@ const Header = () => {
         <p className="text-gray-200 leading-7 text-base font-light font-raleway">
           We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.
         </p>
-        <a href="#" className="inline-block mt-5">
-          <button className="font-medium leading-none text-base text-indigo-900 bg-white mt-5 rounded-full py-4 px-8">
+        <a href="#services" className="inline-block mt-5">
+          <button className="font-medium leading-none text-base text-indigo-900 bg-white  rounded-full py-4 px-8">
             Get Started
           </button>
         </a>

@@ -1,0 +1,96 @@
+.text1{
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+.text2{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgb(153, 153, 153);
+}
+.text3{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgb(153, 153, 153);
+}
+.text4{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgb(153, 153, 153);
+}
+.text5{
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+.text6{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.text7{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.text8{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.text9{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.butn {
+    padding: 10px 25px; /* Reduced button size */
+    background: #fff; /* Initial background color */
+    color: #fff; /* Initial text color */
+    border-radius: 30px;
+    border: 1px solid transparent;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+
+.butn-bg {
+    background: linear-gradient(to right, #4b6cb7, #182848); /* Blue gradient */
+}
+
+.butn:hover {
+    color: #4b6cb7; /* Text color on hover */
+}
+
+.butn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; /* Start off the button */
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #4b6cb7, #182848); /* Blue gradient background */
+    transition: left 0.4s ease; /* Smooth transition for sliding effect */
+    z-index: 0;
+}
+
+.butn:hover::before {
+    left: 0; /* Slide in from left to cover button */
+}
+
+.butn span {
+    position: relative;
+    z-index: 1; /* Ensure text stays above the background */
+    transition: color 0.4s;
+}
+

@@ -50,6 +50,7 @@ function App() {
           <Team />
           <PricePage />
           <Blog />
+          <br></br>
           <Contact />
           <Footer />
         </div>

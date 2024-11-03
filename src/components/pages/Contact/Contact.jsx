@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline';
+import "./Contact.css"
 import axios from 'axios';
 
 const Contact = () => {
@@ -52,33 +53,33 @@ const Contact = () => {
                 <div className="flex flex-wrap">
 
                     <div className="section-head mx-auto mb-8 lg:mx-0 lg:col-span-6 lg:offset-3">
-                        <h4 className="text-center text-3xl font-semibold mb-4">Get <span className="text-blue-500">In</span> Touch</h4>
-                        <p className="text-center text-gray-600">We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.</p>
+                        <h4 className="text-center text-3xl font-semibold mb-4 font-rubik">Get <span className="text-blue-500">In</span> Touch</h4>
+                        <p className="text-center  text5 font-raleway">We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.</p>
                     </div>
 
                     <div className="lg:w-1/2 px-4 lg:px-0">
                         <div className="contact-info mb-8">
-                            <h5 className="text-lg font-semibold mb-2">Contact Us :</h5>
-                            <p className="text-gray-600 mb-4">Ready to bring your ideas to life? We’re here to help! Reach out to us via phone, email, or visit our office to discuss your project.</p>
+                            <h5 className="text6  mb-2 font-rubik" >Contact Us :</h5>
+                            <p className=" mb-4 text1 font-raleway">Ready to bring your ideas to life? We’re here to help! Reach out to us via phone, email, or visit our office to discuss your project.</p>
                             <div className="flex items-center mb-4">
                                 <PhoneIcon className="h-6 w-6 text-blue-500 mr-2" />
                                 <div>
-                                    <h6 className="font-semibold">Phone :</h6>
-                                    <p>+20 010 251 789 18 , 251 789 18</p>
+                                    <h6 className="font-semibold font-rubik text7">Phone :</h6>
+                                    <p className='text2 font-raleway'>+20 010 251 789 18 , 251 789 18</p>
                                 </div>
                             </div>
                             <div className="flex items-center mb-4">
                                 <EnvelopeIcon className="h-6 w-6 text-blue-500 mr-2" />
                                 <div>
-                                    <h6 className="font-semibold">Email :</h6>
-                                    <p>Coco_support@website.com</p>
+                                    <h6 className="font-semibold font-rubik text8">Email :</h6>
+                                    <p className='text3 font-raleway'>Coco_support@website.com</p>
                                 </div>
                             </div>
                             <div className="flex items-center">
                                 <MapPinIcon className="h-6 w-6 text-blue-500 mr-2" />
                                 <div>
-                                    <h6 className="font-semibold">Address :</h6>
-                                    <p>4655 Carter Street ,Olney, Illinois</p>
+                                    <h6 className="font-semibold font-rubik text9">Address :</h6>
+                                    <p className='text4 font-raleway'>4655 Carter Street ,Olney, Illinois</p>
                                 </div>
                             </div>
                         </div>
@@ -143,13 +144,12 @@ const Contact = () => {
                                             ></textarea>
                                         </div>
                                     </div>
-                                    <div className="w-full px-2 mb-4">
-                                        <button 
-                                            type="submit" 
-                                            className="butn butn-bg w-full py-2 px-4 bg-blue-500 text-white rounded-md focus:outline-none hover:bg-blue-600 transition duration-300">
-                                            <span>Send Message</span>
-                                        </button>
-                                    </div>
+                                    <div className="col-md-12">
+    <button type="submit" className="butn butn-bg">
+        <span>Send Message</span>
+    </button>
+</div>
+
                                 </div>
                             </div>
                             {responseMessage && <p className="text-center text-red-500 mt-4">{responseMessage}</p>}

@@ -27,7 +27,7 @@ const Navbar = () => {
         </button>
 
         {/* Navbar links */}
-        <div className={`lg:flex flex-grow items-center ${isOpen ? 'justify-center' : 'justify-end'} ${isOpen ? 'flex' : 'hidden'} lg:static absolute top-16 left-0 right-0 bg-gray-900 lg:bg-transparent z-10 lg:shadow-none shadow-md`} id="navbarSupportedContent">
+        <div style={{ fontFamily: 'Playfair Display, serif' }} className={`lg:flex flex-grow items-center ${isOpen ? 'justify-center' : 'justify-end'} ${isOpen ? 'flex' : 'hidden'} lg:static absolute top-16 left-0 right-0 bg-gray-900 lg:bg-transparent z-10 lg:shadow-none shadow-md`} id="navbarSupportedContent">
           <ul className="flex flex-col lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 py-4 lg:py-0 px-4 lg:px-0 items-center">
             <li className="nav-item">
               <a className="nav-link active text-white brightness-125" href="#" >Home</a>
